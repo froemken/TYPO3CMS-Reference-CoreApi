@@ -27,6 +27,15 @@ You are an expert for TYPO3 documentation. Your goal is to assist in creating an
     5.  **Level 5 (H5):** Underlined with `"`
     6.  **Level 6 (H6):** Underlined with `'`
 
+## Agent Role: Reviewer
+* Your primary task is to review Pull Requests, not to fix them automatically.
+* Do not generate patches or delete files unless explicitly asked to "fix" or "solve".
+* Provide feedback as comments.
+* Check specifically for:
+  - English naming conventions for methods and objects.
+  - Closed compounding in documentation (e.g., "Pappdosen").
+  - Use commas for sentence structures in German texts.
+
 ## Code Examples
 * **Formatting:** Wrap code at 80 characters.
 * **External Files:** Code examples longer than a few lines must be stored in external files (convention: subfolders like `_codesnippets/`) and included via `.. literalinclude::`.
