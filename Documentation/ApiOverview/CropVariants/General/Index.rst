@@ -10,6 +10,8 @@ The following examples are meant to add one single
 cropping configuration to sys_file_reference, which will then apply to every
 record referencing images.
 
+The configuration should be added to :file:`Configuration/TCA/Overrides/sys_file_reference.php`.
+
 In this example we configure two crop variants, one with the id "mobile",
 one with the id "desktop". The array key defines the crop variant id, which will be used
 when rendering an image with the image view helper.
